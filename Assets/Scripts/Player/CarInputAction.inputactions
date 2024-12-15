@@ -1,0 +1,34 @@
+{
+    "name": "CarInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9e56a7ba-b6ef-4ef8-b511-796e4c7e61ce",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2f0416a5-7bc9-4816-bbdb-fb564a8cc567",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "81fa9485-2663-4e2e-8ff6-eb30de92d399",
+                    "path": "<AndroidJoystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
